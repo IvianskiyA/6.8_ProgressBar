@@ -20,7 +20,7 @@ function setNewLevel()
   {
     $("#prgbar").attr("class", "progress-bar progress-bar-striped bg-danger");
   }
-  console.log("Установили новый уровень - " + ww);
+  //console.log("Установили новый уровень - " + ww);
 }
 
 function click1Button(arg)
@@ -44,7 +44,7 @@ function click1Button(arg)
 function init() {
   $("button").click(click1Button);
 
-  console.log("скрипт подгрузился");  
+  //console.log("скрипт подгрузился");  
 }
 
 $(document).ready(init);
